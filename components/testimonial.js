@@ -4,7 +4,7 @@ function Testimonial (props) {
     return (
 
 
-<section class="mb-20 text-gray-700 md:max-w-xl lg:max-w-5xl mx-auto ">
+<section class="mb-20  text-gray-700 md:max-w-4xl lg:max-w-7xl mx-auto p-8 ">
   <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
     <h3 class="text-3xl font-bold mb-6 text-gray-800">Testimonials</h3>
     <p class="mb-6 pb-2 md:mb-12 md:pb-0">
@@ -14,8 +14,8 @@ function Testimonial (props) {
     </p>
   </div>
 
-  <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center">
-    <div class="mb-12 md:mb-0">
+  <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center ">
+    <div class="mb-12  md:mb-0">
       <div class="flex justify-center mb-6">
         <img
           src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
