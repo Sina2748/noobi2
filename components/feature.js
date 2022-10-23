@@ -24,6 +24,7 @@ function Feature (props) {
                 <Card  key={meal.id}
                   price={meal.price}
                   img={meal.heroImg}
+                  imgAlt={meal.heroImgAlt}
                   title={meal.title}
                   text={meal.infoText}
                   // time={meal.cookingTime}

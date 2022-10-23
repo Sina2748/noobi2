@@ -10,8 +10,8 @@ function card (props) {
 
       <img 
       className="rounded-t-lg " 
-      src={props.img}       
-      alt=""  />
+      src={props.img}     
+      alt={props.imgAlt}  />
 
       <div class="flex space-x-2 justify-center absolute bottom-44 left-2">
         <span class="text-md inline-block py-2 px-2 leading-none text-center whitespace-nowrap align-baseline font-body bg-primary-400 text-primary-900 rounded-full">£ {props.price}</span>
