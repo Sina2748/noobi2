@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Hero from '../components/hero';
 import CTA from '../components/cta';
-import Feature from '../components/feature';
+import CardGrid from '../components/CardGrid';
 import Testimonial from '../components/testimonial';
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <main className="h-fit">        
         <Hero />
         
-        <Feature />
+        <CardGrid i={6} />
         <CTA />
         <Testimonial />
 

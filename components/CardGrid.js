@@ -1,5 +1,5 @@
 import Card from '../components/card';
-import mealJson from "../data/mealJson";
+import mealJsonAll from "../data/mealJson";
 import img1 from "../public/assets/zer.webp";
 import img2 from "../public/assets/hal.webp";
 import img3 from "../public/assets/ash.webp";
@@ -8,8 +8,9 @@ import img5 from "../public/assets/ghe.webp";
 import img6 from "../public/assets/fes.webp";
 import { matchesMiddleware } from 'next/dist/shared/lib/router/router';
 
-function Feature (props) {
-      console.log(mealJson);
+function CardGrid (props) {
+      const mealJson = mealJsonAll.slice(0,props.i);
+      console.log("mealJson", mealJson);
     return (
 
 <section className="bg-white dark:bg-gray-900">
@@ -64,4 +65,4 @@ function Feature (props) {
     )
  }
 
- export default Feature;
+ export default CardGrid;
