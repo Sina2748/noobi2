@@ -1,8 +1,9 @@
 const mealObject = [
         {
-        "id" : 001,
+        "id" : "001",
         "mealName" : "Fesenjoon",
-        "heroImg" : "/public/assets/fes.webp",
+        "price" : 2.00,
+        "heroImg" : "/assets/fes.webp",
         "cookingTime" : {"date" : "23/11/2022", "time" : "8:00"},
         "neighborhood" : "hendon",
         "totalSum" : 20,
@@ -12,9 +13,10 @@ const mealObject = [
         "videos" : ["https://www.youtube.com/watch?v=qwKpEnqh_88"]
     },
     {
-        "id" : 002,
+        "id" : "002",
         "mealName" : "Gheymeh",
-        "heroImg" : "/public/assets/ghe.webp",
+        "price" : 3.00,
+        "heroImg" : "/assets/ghe.webp",
         "cookingTime" : {"date" : "24/11/2022", "time" : "9:00"},
         "neighborhood" : "hendon",
         "totalSum" : 30,
@@ -24,9 +26,10 @@ const mealObject = [
         "videos" : ["https://www.youtube.com/watch?v=qwKpEnqh_88"]
     },
     {
-        "id" : 003,
+        "id" : "003",
         "mealName" : "Ash reshteh",
-        "heroImg" : "/public/assets/ash.webp",
+        "price" : 5.00,
+        "heroImg" : "/assets/ash.webp",
         "cookingTime" : {"date" : "25/11/2022", "time" : "13:00"},
         "neighborhood" : "finchly",
         "totalSum" : 40,
@@ -36,3 +39,5 @@ const mealObject = [
         "videos" : ["https://www.youtube.com/watch?v=qwKpEnqh_88"]
     },
 ]
+
+export default mealObject;
