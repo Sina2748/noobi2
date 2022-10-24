@@ -18,6 +18,7 @@ function CardGrid (props) {
                   return (
             <div>
                 <Card  
+                  key={meal.id}
                   id={meal.id}
                   price={meal.price}
                   img={meal.heroImg}
