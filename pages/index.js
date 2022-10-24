@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer';
 import Hero from '../components/hero';
 import CTA from '../components/cta';
-import CardGrid from '../components/cardGrid';
+// import CardGrid from '../components/cardGrid';
 import Testimonial from '../components/testimonial';
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <main className="h-fit">        
         <Hero />
         
-        <CardGrid i={6} />
+        {/* <CardGrid i={6} /> */}
         <CTA />
         <Testimonial />
 

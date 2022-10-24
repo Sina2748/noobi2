@@ -2,7 +2,7 @@ import Head from 'next/head'
 // import styles from '../styles/Home.module.css'
 import Nav from '../components/nav';
 import Footer from '../components/footer';
-import CardGrid from '../components/cardGrid';
+// import CardGrid from '../components/cardGrid';
 
 function Offers (props) {
     return (
@@ -18,7 +18,7 @@ function Offers (props) {
         <main className="h-fit">        
           
           
-          <CardGrid i={9}/>
+          {/* <CardGrid i={9}/> */}
 
   
         </main>
