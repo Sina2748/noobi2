@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const mealPage = () => {
+const MealPage = () => {
     const [show, setShow] = useState(false);
     const [show2, setShow2] = useState(false);
 
@@ -128,7 +128,7 @@ const mealPage = () => {
                             </button>
                         </div>
                         <div className={"pt-4 text-base leading-normal pr-12 mt-4 text-gray-600 " + (show ? "block" : "hidden")} id="sect">
-                            You will be responsible for paying for your own shipping costs for returning your item but it's free. Shipping costs are nonrefundable
+                            You will be responsible for paying for your own shipping costs for returning your item but its free. Shipping costs are nonrefundable
                         </div>
                     </div>
                 </div>
@@ -162,4 +162,4 @@ const mealPage = () => {
     );
 };
 
-export default mealPage;
+export default MealPage;

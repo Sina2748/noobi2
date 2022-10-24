@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Nav from '../../components/nav';
 import Footer from '../../components/footer';
-import MealPage from '../../components/mealPage'
+import MealPage from '../../components/MealPage'
 
 function Offer () {
     return (
