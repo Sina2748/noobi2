@@ -22,10 +22,12 @@ function CardGrid (props) {
                   price={meal.price}
                   img={meal.heroImg}
                   imgAlt={meal.heroImgAlt}
-                  title={meal.title}
+                  title={meal.mealName}
                   text={meal.infoText}
-                  // time={meal.cookingTime}
+                  day={meal.cookingTime.day}
+                  time={meal.cookingTime.time}
                   mealsLeft={meal.totalSum - meal.orderSum}
+                  neighborhood={meal.neighborhood}
 />
             </div>
                   )

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 function card (props) {
 
@@ -22,11 +22,15 @@ function card (props) {
 
     <div class="flex space-x-2 justify-center pt-3">
         <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-primary-800 text-white rounded">
-            Ready on {props.time}
+            Cooked on {props.day} {props.time}
         </span>
 
         <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-gray-800 text-white rounded">
             {props.mealsLeft} Meals Left
+        </span>
+
+        <span class="text-xs inline-block py-1 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-primary-600 text-primary-900 rounded capitalize">
+            {props.neighborhood}
         </span>
     </div>
 

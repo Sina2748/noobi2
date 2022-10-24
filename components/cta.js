@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import chef from '../public/assets/chef.jpg'
+import chef from '../public/assets/chef.webp'
 
 function CTA (props) {
     return (
@@ -7,9 +7,9 @@ function CTA (props) {
 
 <section class="bg-white dark:bg-gray-900 ">
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-    <Image
-        className='rounded-full'
-        src={chef}
+    <img
+        className='rounded-full shadow-lg'
+        src="/assets/chef.webp"
         alt="Picture of the author"
         // width={500} automatically provided
         // height={500} automatically provided
