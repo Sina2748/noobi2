@@ -1,5 +1,5 @@
 import Card from '../components/card';
-import mealJsonAll from "../data/mealJson";
+import mealJsonAll from "../Data/mealJson";
 
 
 function CardGrid (props) {
