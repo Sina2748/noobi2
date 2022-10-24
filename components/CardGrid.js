@@ -13,7 +13,7 @@ function CardGrid (props) {
           <h2 className="mb-4 ml-6 md:ml-0 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Pick and Order one of our Meal Deals</h2>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            {/* {mealJson.map((meal) => 
+            {mealJson.map((meal) => 
                   
                   
             <div>
@@ -32,30 +32,9 @@ function CardGrid (props) {
 />
             </div>
                   
-             )} */}
-
-          {/* <div>
-                <Card img={img1} title="Barberries and Rice" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Wednesday at 8pm" mealsLeft="2" />
-          </div> */}
+             )} 
 
 
-
-
-          {/* <div>
-                <Card img={img2} title="Halim and cinamon" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Thursday at 8pm" mealsLeft="3" />
-          </div>
-          <div>
-                <Card img={img3} title="ash reshte" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Friday at 8pm" mealsLeft="5" />
-          </div>
-          <div>
-                <Card img={img4} title="tah chin" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Saturday at 8pm" mealsLeft="5" />
-          </div>
-          <div>
-                <Card img={img5} title="gheymeh" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Sunday at 8pm" mealsLeft="6" />
-          </div>
-          <div>
-                <Card img={img6} title="fesenjoon" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Monday at 8pm" mealsLeft="8" />
-          </div> */}
 
       </div>
   </div>
