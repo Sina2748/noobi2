@@ -1,12 +1,13 @@
 import Image from "next/image";
 
 function card (props) {
-  console.log("props.img", props.img);
+
+  
     return (
 
 <div className="flex justify-center">
   <div className="rounded-lg shadow-lg bg-white max-w-sm ">
-    <a href="#!" className="relative">
+    <a href={`/offers/${props.id}`} className="relative">
 
       <img 
       className="rounded-t-lg " 
@@ -34,9 +35,9 @@ function card (props) {
       <p className="text-gray-700 text-base mb-4">
         {props.text}
       </p>
-      <button type="button" className=" inline-block px-6  py-3 bg-primary-700 text-white font-medium text-md leading-tight  rounded-md shadow-md hover:bg-primary-800 hover:shadow-lg focus:bg-primary-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out">
+      <a href={`/offers/${props.id}`} className=" inline-block px-6  py-3 bg-primary-700 text-white font-medium text-md leading-tight  rounded-md shadow-md hover:bg-primary-800 hover:shadow-lg focus:bg-primary-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out">
         Order Now 
-      </button>
+      </a>
     </div>
   </div>
 </div>

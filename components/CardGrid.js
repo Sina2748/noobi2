@@ -1,16 +1,10 @@
 import Card from '../components/card';
 import mealJsonAll from "../data/mealJson";
-import img1 from "../public/assets/zer.webp";
-import img2 from "../public/assets/hal.webp";
-import img3 from "../public/assets/ash.webp";
-import img4 from "../public/assets/tah.webp";
-import img5 from "../public/assets/ghe.webp";
-import img6 from "../public/assets/fes.webp";
-import { matchesMiddleware } from 'next/dist/shared/lib/router/router';
+
 
 function CardGrid (props) {
       const mealJson = mealJsonAll.slice(0,props.i);
-      console.log("mealJson", mealJson);
+      
     return (
 
 <section className="bg-white dark:bg-gray-900">
@@ -19,10 +13,12 @@ function CardGrid (props) {
           <h2 className="mb-4 ml-6 md:ml-0 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Pick and Order one of our Meal Deals</h2>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            {mealJson.map(meal => {
+            {mealJson.map((meal) => {
+        
                   return (
             <div>
-                <Card  key={meal.id}
+                <Card  
+                  id={meal.id}
                   price={meal.price}
                   img={meal.heroImg}
                   imgAlt={meal.heroImgAlt}
