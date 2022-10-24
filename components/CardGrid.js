@@ -13,9 +13,9 @@ function CardGrid (props) {
           <h2 className="mb-4 ml-6 md:ml-0 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Pick and Order one of our Meal Deals</h2>
       </div>
       <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            {mealJson.map((meal) => {
-        
-                  return (
+            {/* {mealJson.map((meal) => 
+                  
+                  
             <div>
                 <Card  
                   key={meal.id}
@@ -31,8 +31,8 @@ function CardGrid (props) {
                   neighborhood={meal.neighborhood}
 />
             </div>
-                  )
-            } )}
+                  
+             )} */}
 
           {/* <div>
                 <Card img={img1} title="Barberries and Rice" text="Zhereshk or Barberry is a kind of bery found in dry and warm places. It has a sour and rich tase with amplifies when fried with a litle suger. adding it to rice ... " time="Wednesday at 8pm" mealsLeft="2" />
